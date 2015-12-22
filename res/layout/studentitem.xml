@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TextView
+     android:id="@+id/itemno"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:text="学号"
+     android:gravity="center"/>
+  <TextView
+     android:id="@+id/itemname"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:text="姓名"
+     android:gravity="center"/>
+  <TextView
+     android:id="@+id/itemscore"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:text="分数"
+     android:gravity="center"/>
+</LinearLayout>
